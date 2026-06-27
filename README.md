@@ -1,40 +1,50 @@
 # 📊 Super Store Sales Dashboard | Microsoft Excel
 
-An interactive Sales Dashboard built in Microsoft Excel to analyze retail sales performance across multiple business dimensions, including sales, transactions, shipping modes, regions, customer segments, and product categories.
-
-The dashboard enables users to explore sales data using interactive slicers and dynamic charts, making it easier to identify trends, monitor KPIs, and support data-driven decision-making.
-
----
-
-## 📌 Project Overview
-
-This project demonstrates how Microsoft Excel can be used to build an interactive Business Intelligence dashboard without using any external BI tools.
-
-The dashboard provides a centralized view of business performance and allows users to filter data by Region and Year using slicers.
-
----
-
-## 🎯 Objectives
-
-- Analyze overall sales performance.
-- Monitor key business KPIs.
-- Compare sales across regions.
-- Analyze shipping mode distribution.
-- Identify top-performing cities.
-- Understand customer purchasing behavior.
-- Track monthly order trends.
+An interactive Sales Dashboard built in Microsoft Excel to analyze retail sales performance across different regions, customer segments, shipping modes, and product categories. The dashboard provides dynamic insights using Pivot Tables, Pivot Charts, KPI Cards, and Slicers for interactive data exploration.
 
 ---
 
 ## 📷 Dashboard Preview
 
-> Add your dashboard screenshot here.
+> **Current Dashboard**
 
-![Dashboard Preview](Dashboard.png)
+![Super Store Sales Dashboard](Dashboard.png)
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+## 📌 Project Overview
+
+This dashboard helps analyze sales performance through interactive visualizations and filters. Users can filter the dashboard by **Region** and **Year**, allowing all KPIs and charts to update dynamically.
+
+### Dashboard Highlights
+
+- 📈 Total Sales KPI
+- 📊 Average Sales KPI
+- 🧾 Total Transactions KPI
+- 📦 Total Quantity Sold KPI
+- 🚚 Ship Mode Sales Distribution
+- 🌍 Region-wise Transactions
+- 📅 Monthly Quantity Ordered Trend
+- 🏙️ Top 5 Cities by Sales
+- 📂 Category-wise Transactions
+- 👥 Customer Type Quantity Ordered
+- 🎛️ Interactive Region & Year Slicers
+
+---
+
+## 🛠 Tools Used
+
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Conditional Formatting
+- Excel Formulas
+- Data Visualization
+
+---
+
+## 📈 Key Performance Indicators
 
 | KPI | Value |
 |------|-------|
@@ -45,142 +55,39 @@ The dashboard provides a centralized view of business performance and allows use
 
 ---
 
-## 📈 Dashboard Components
+## 📊 Dashboard Insights
 
-### 1. KPI Cards
-- Total Sales
-- Average Sales
-- Total Transactions
-- Total Quantity Ordered
-
-### 2. Ship Mode Sales Distribution
-Displays the percentage of sales by shipping method:
-- Standard Class
-- Second Class
-- First Class
-- Same Day
-
-### 3. Region-wise Transactions
-Compares transaction distribution across:
-- Central
-- East
-- South
-- West
-
-### 4. Monthly Quantity Ordered
-Visualizes monthly order trends to identify seasonality and peak sales periods.
-
-### 5. Top 5 Cities by Sales
-Highlights the highest revenue-generating cities.
-
-### 6. Category-wise Transactions
-Compares transaction volume for:
-- Office Supplies
-- Furniture
-- Technology
-
-### 7. Customer Type Quantity Ordered
-Analyzes quantity ordered by customer segment:
-- Consumer
-- Corporate
-- Home Office
-
----
-
-## 🎛 Interactive Features
-
-- Region Filter
-- Year Filter
-- Dynamic KPI Cards
-- Interactive Pivot Charts
-- Responsive Dashboard Layout
-
----
-
-## 🛠 Tools & Techniques Used
-
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Conditional Formatting
-- Excel Formulas
-- Data Visualization
-- Dashboard Design
-
----
-
-## 📂 Dataset
-
-The dashboard is built using the popular Super Store sales dataset containing information about:
-
-- Orders
-- Customers
-- Products
-- Regions
-- Shipping Modes
-- Sales
-- Quantity
-
----
-
-## 📌 Business Insights
-
-### Overall Performance
-- Total sales reached **5.82 Million**.
-- Nearly **10,000 customer transactions** were completed.
-- More than **25,000 products** were sold.
-- Average sales per transaction is **582.37**.
+### Overall Business Performance
+- Generated **5.82 Million** in total sales.
+- Processed **9,994** customer transactions.
+- Sold **25,123** products.
+- Average sales value per transaction is **582.37**.
 
 ### Shipping Analysis
-- Standard Class accounts for the largest share of shipments.
-- Same Day shipping contributes the smallest percentage.
-- Most customers prefer economical shipping options.
+- Standard Class contributes the highest share (**58%**).
+- Second Class accounts for **20%**.
+- First Class contributes **16%**.
+- Same Day shipping represents **6%**.
 
-### Regional Performance
-- West region records the highest transaction share.
-- East follows closely behind.
-- South has the lowest contribution.
+### Regional Analysis
+- West Region contributes the highest transaction share (**31%**).
+- East Region follows with **30%**.
+- Central Region contributes **22%**.
+- South Region contributes **17%**.
 
-### Monthly Trend
-- Sales remain relatively stable during the first half of the year.
-- Demand increases during the final quarter.
-- September, November, and December show peak order quantities.
+### Monthly Sales Trend
+- Order quantities remain stable during the first half of the year.
+- Sales increase significantly from August onward.
+- September and November are the strongest months.
 
-### City Performance
-Top-performing cities include:
-1. New York City
-2. Los Angeles
-3. Philadelphia
-4. Seattle
-5. San Francisco
-
-### Product Categories
-- Office Supplies generate the highest number of transactions.
-- Furniture contributes a moderate share.
-- Technology has fewer transactions but may generate higher-value sales.
-
-### Customer Segments
-- Consumers contribute the highest order quantity.
-- Corporate customers rank second.
-- Home Office customers contribute the least.
+### Customer Analysis
+- Consumer customers order the highest quantity.
+- Corporate customers are the second-largest segment.
+- Home Office customers contribute the least quantity.
 
 ---
 
-## 💡 Skills Demonstrated
-
-- Data Cleaning
-- Data Analysis
-- Dashboard Development
-- KPI Reporting
-- Data Visualization
-- Business Intelligence
-- Excel Automation
-- Analytical Thinking
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 SuperStore-Sales-Dashboard/
@@ -193,24 +100,21 @@ SuperStore-Sales-Dashboard/
 
 ---
 
-## 🚀 Future Enhancements
+## 🚀 Future Improvements
 
-- Profit Analysis Dashboard
+- Profit Dashboard
 - Sales Forecasting
-- Customer Profitability Analysis
-- Product Performance Dashboard
 - Power BI Version
 - SQL Integration
 - Power Query Automation
+- Dynamic Date Filters
 
 ---
 
-## 👤 Author
+## 👨‍💻 Author
 
-**Your Name** Dushyant
+**Your Name**Dushyant
 
-📧 Email: your-Dushyantkumar041087@gmail.com
+GitHub: https://github.com/yourusername
 
-🔗 LinkedIn: www.linkedin.com/in/dushyant-dushyant-848447325
-
-💻 GitHub: https://github.com/yourusername
+LinkedIn: https://linkedin.com/in/your-profile
